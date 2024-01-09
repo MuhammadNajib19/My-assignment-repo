@@ -323,16 +323,19 @@ header img {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  
+
 }
-.gift-portfolio-images{
+
+.gift-portfolio-images {
   position: relative;
 }
-.image-items img{
+
+.image-items img {
   width: 350px;
   height: 350px;
 }
-.image-items{
+
+.image-items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -340,10 +343,84 @@ header img {
   top: 2650px;
   left: 140px;
   gap: 14px;
-  
+
 
 }
-.image-items :hover{
+
+.image-items :hover {
   border: 1.7px solid rgb(109, 106, 106);
   border-radius: 16px;
+}
+
+/* SUBSCRIBE AREA */
+/* SUBSCRIBE AREA */
+.subscribe-area {
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.068);
+  height: 500px;
+  width: 1100px;
+  border-radius: 14px;
+  top: 4600px;
+  left: 130px;
+}
+
+.subscribe-area img {
+  margin-top: 50px;
+  margin-left: 480px;
+}
+
+.subscribe-area h1 {
+  margin-top: 40px;
+  margin-left: 21px;
+  color: #070211;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.subscribe-area p {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subscribe-area input value {
+  color: rgba(7, 2, 17, 0.30);
+}
+
+.subscribe-area input {
+  border-radius: 50px 0px 0px 50px;
+  background-color: #FFF;
+  padding: 23px 50px;
+  margin: 50px 0 0 250px;
+  border: none;
+  width: 138px;
+}
+.subscribe-area input:hover{
+  border: 1px solid grey;
+}
+
+.subscribe-area .subscribe {
+  position: absolute;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  width: 210px;
+  height: 64px;
+  margin-left: 629px;
+  bottom: -19px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ 
+.subscribe-area span{
+  color: #FFF;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 15px;
 }
