@@ -124,3 +124,37 @@ header img {
   font-weight: 800;
   background: none;
 }
+.address-area{
+  position: relative;
+}
+.address-content{
+  position: absolute;
+  top: 1130px;
+  left: 500px;
+
+}
+.address-bg{
+  position: absolute;
+  top: 2100px;
+  left: 130px;
+  border-radius: 14px;
+  height: 500px;
+  width: 1100px ;
+  background: rgba(231, 165, 165, 0.315);
+}
+.address-btn{
+  color: white;
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+ background-color: #F00;
+ margin-top: 50px;
+ margin-left: 100px;
+ border-radius: 12px;
+ border: none;
+}
+.address-content span{
+  color: #F00;
+}
