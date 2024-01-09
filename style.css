@@ -270,15 +270,80 @@ header img {
   font-size: 72px;
   font-weight: 900;
 }
-.holiday-text{
+
+.holiday-text {
   color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-top: 2180px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  top: 2180px;
   left: 300px;
   width: 800px;
   position: absolute;
-font-weight: 500;
+  font-weight: 500;
 
+}
+
+/* GIFT AREA */
+.best-gift {
+  position: relative;
+}
+
+.gift-text h3 {
+  position: absolute;
+  top: 2420px;
+  left: 140px;
+  color: #F00;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.gift-text h1 {
+  position: absolute;
+  top: 2450px;
+  left: 140px;
+  color: #070211;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+
+.gift-text p {
+  position: absolute;
+  top: 2530px;
+  left: 140px;
+  width: 800px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.gift-portfolio-images{
+  position: relative;
+}
+.image-items img{
+  width: 350px;
+  height: 350px;
+}
+.image-items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 2650px;
+  left: 140px;
+  gap: 14px;
+  
+
+}
+.image-items :hover{
+  border: 1.7px solid rgb(109, 106, 106);
+  border-radius: 16px;
 }
